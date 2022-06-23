@@ -1,0 +1,17 @@
+django
+django-extensions
+psycopg2
+pytest
+pytest-django
+factory-boy
+django-filter
+django-cors-headers
+djangorestframework
+djangorestframework-filters==1.0.0.dev0
+djangorestframework-simplejwt
+drf-nested-routers
+black
+pep8
+pylint
+six
+pillow

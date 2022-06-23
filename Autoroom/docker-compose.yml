@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  autoroom:
+    build:
+      context: .
+    image: autoroom
+    container_name: autoroom
+    volumes: 
+      - .:/app
+    ports: 
+      - "8000:8000"
+    env_file:
+      - ./settings.env
+    depends_on:
+      - postgres
+
+  frontend:
+    build:
+      context: ./frontend
+    image: autoroom_frontend
+    container_name: frontend
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "8080:8080"
+
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    env_file: 
+      - ./settings.env
