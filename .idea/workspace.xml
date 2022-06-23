@@ -5,58 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2847eed0-e45c-4c21-bc4a-a422915bed27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Autoroom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/Autoroom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/core/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/core/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/core/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/fixtures/measures.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0002_alter_measure_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0003_alter_measure_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0004_alter_measure_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/backend/measures/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/assets/AR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/axios/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/components/Main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/layouts/GeneralLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/layouts/MainLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/plugins/bootstrap-vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/frontend/src/router/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/requirements.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Autoroom/settings.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -164,7 +112,7 @@
       <workItem from="1655934833667" duration="59000" />
       <workItem from="1655934937454" duration="8581000" />
       <workItem from="1655977204156" duration="2007000" />
-      <workItem from="1655979531329" duration="2894000" />
+      <workItem from="1655979531329" duration="3319000" />
     </task>
     <servers />
   </component>
