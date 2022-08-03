@@ -37,8 +37,8 @@ DHT dht(DHTPIN, DHTTYPE);
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char *ssid = "anceucoliving";
-const char *password = "anceuvibe";
+const char *ssid = "WIFI_MESH_4B7B";
+const char *password = "TsQd7cEsYdbCPE";
 
 // Your Domain name with URL path or IP address with path
 const char *serverName = "http://192.168.1.206:8000/"; // TODO

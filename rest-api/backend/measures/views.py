@@ -1,10 +1,11 @@
+import json
+
+from django.http import JsonResponse
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet
 
 from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
 
 from backend.measures.models import Measure
 from backend.measures.serializers import MeasureSerializer
@@ -17,15 +18,27 @@ class MeasureViewSet(ModelViewSet):
     search_fields = ["room_id", "room_name"]
     ordering = ("id",)
     filterset_fields = ['is_online']
-
     def get_serializer_class(self):
         return MeasureSerializer
 
+
 class MeasuresViews(APIView):
-    def post(self, request):
-        serializer = MeasureSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"status": "success", "data": serializer.data}, status=status.HTTP_200_OK)
+
+    def get(self, request):
+        measures = list(Measure.objects.values())
+        if len(measures) > 0:
+            measure_data = {"message": "success", "measures": measures}
         else:
-            return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
+            measure_data = {"message": "measures not found"}
+        return JsonResponse(measure_data)
+
+    def post(self, request):
+        jd = json.loads(request.body)
+        Measure.objects.create(
+            room_id=jd['room_id'],
+            room_name=jd['room_name'],
+            temperature=jd['temperature'],
+            humidity=jd['humidity'],
+        )
+        measure_data = {'message': "Success"}
+        return JsonResponse(measure_data)

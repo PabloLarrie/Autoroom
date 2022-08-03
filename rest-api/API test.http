@@ -1,0 +1,9 @@
+POST http://localhost:8000/measurement/
+Content-Type: application/json
+
+{
+  "room_id": 4,
+  "room_name": "WC room",
+  "temperature": 17,
+  "humidity": 42
+}
