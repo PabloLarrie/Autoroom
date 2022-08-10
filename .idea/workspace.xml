@@ -5,93 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2847eed0-e45c-4c21-bc4a-a422915bed27" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/Autoroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/Autoroom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/core/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/core/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/fixtures/measures.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/fixtures/measures.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0002_alter_measure_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/migrations/0002_alter_measure_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0003_alter_measure_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/migrations/0003_alter_measure_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/0004_alter_measure_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/migrations/0004_alter_measure_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/backend/measures/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/assets/AR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/assets/AR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/axios/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/axios/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/components/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/layouts/GeneralLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/layouts/GeneralLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/layouts/MainLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/plugins/bootstrap-vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/plugins/bootstrap-vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/frontend/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/requirements.in" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/requirements.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoroom/settings.env" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/settings.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/factories.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/files/sony.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/files/universal.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/files/warner.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/management/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/management/commands/csv_ingestion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0002_delete_workfiles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0003_workfiles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0004_rename_workfiles_worksfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0005_fileworks_delete_worksfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0006_alter_proprietary_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0007_alter_proprietary_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/0008_alter_work_iswc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/tests/test_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/repertoire/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../openapi.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.env" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Country-Stores/.idea/Country-Stores.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IMDB_films/.idea/IMDB_films.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-api/backend/measures/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pac_desarrollo/.idea/pac_desarrollo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php_pac/.idea/php_pac.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/autoroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autoroom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/backend/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/backend/measures/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/backend/measures/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/frontend/src/components/AddMeasure.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api/frontend/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api/frontend/src/components/Main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,20 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/pablolarrie/Projects/Autoroom/frontend/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/pablolarrie/Projects/Autoroom/frontend/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/assets" />
@@ -189,5 +120,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rest-api/backend/measures/models.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

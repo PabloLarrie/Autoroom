@@ -1,12 +1,14 @@
 import json
 
 from django.http import JsonResponse
+from django_filters import rest_framework as filters
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet
 
 from rest_framework.views import APIView
 
+from backend.measures.filters import MeasureFilter
 from backend.measures.models import Measure
 from backend.measures.serializers import MeasureSerializer
 
@@ -14,10 +16,11 @@ from backend.measures.serializers import MeasureSerializer
 class MeasureViewSet(ModelViewSet):
     permission_classes = (IsAuthenticatedOrReadOnly,)
     queryset = Measure.objects.all()
-    filter_backends = (SearchFilter, OrderingFilter)
+    filter_backends = (SearchFilter, OrderingFilter, filters.DjangoFilterBackend,)
     search_fields = ["room_id", "room_name"]
     ordering = ("id",)
-    filterset_fields = ['is_online']
+    filterset_fields = ["room_id", "room_name"]
+
     def get_serializer_class(self):
         return MeasureSerializer
 

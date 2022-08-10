@@ -43,6 +43,7 @@ DJANGO_APPS = [
     "corsheaders",
     "rest_framework",
     "rest_framework_filters",
+    "django_filters",
 
 ]
 
@@ -127,9 +128,7 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Europe/Madrid'
 
-DATETIME_FORMAT = "Y-m-d h-i-s"
-
-USE_I18N = False
+DATETIME_FORMAT = '%d-%m %H:%M'
 
 USE_L10N = False
 
@@ -153,5 +152,8 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
     ),
 }
