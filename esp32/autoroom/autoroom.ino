@@ -8,9 +8,7 @@
 
 //define the type of sensor
 #define DHTTYPE DHT11 
-// #define "haya.h"
-// #define "lucia.h"
-// #define "lydia.h"
+
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -18,11 +16,14 @@ DHT dht(DHTPIN, DHTTYPE);
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char *ssid = "xxxxxx";
-const char *password = "xxxxxxx";
 
-// Your Domain name with URL path or IP address with path
-const char *serverName = "http://192.168.45.143:8000/test-api/"; 
+
+#include "Lydia.h"
+//#include "Haya.h"
+//#include "LUCIA.h"
+#include "settings.h"
+
+
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 5000;
@@ -72,7 +73,9 @@ void loop()
 
        char json[100];
 
-        snprintf(json,sizeof(json), "{\"room_id\":106, \"room_name\":\"Lucia\", \"temperature\":%d, \"humidity\":%d}",temperature,humidity);
+//        snprintf(json,sizeof(json), "{\"room_id\":106, \"room_name\":\"Lucia\", \"temperature\":%d, \"humidity\":%d}",temperature,humidity);
+
+          snprintf(json,sizeof(json), "{\"room_id\":%d, \"room_name\":%d, \"temperature\":%d, \"humidity\":%d}",room_id,room_name,temperature,humidity);
 
        Serial.println(json);
 
