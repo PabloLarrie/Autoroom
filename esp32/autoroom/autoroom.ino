@@ -73,7 +73,7 @@ void loop()
 
        char json[100];
 
-//        snprintf(json,sizeof(json), "{\"room_id\":106, \"room_name\":\"Lucia\", \"temperature\":%d, \"humidity\":%d}",temperature,humidity);
+//      
 
           snprintf(json,sizeof(json), "{\"room_id\":%d, \"room_name\":%d, \"temperature\":%d, \"humidity\":%d}",room_id,room_name,temperature,humidity);
 
