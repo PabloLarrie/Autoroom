@@ -75,7 +75,7 @@ void loop()
 
 //      
 
-          snprintf(json,sizeof(json), "{\"room_id\":%d, \"room_name\":%d, \"temperature\":%d, \"humidity\":%d}",room_id,room_name,temperature,humidity);
+          snprintf(json,sizeof(json), "{\"api_key\":%d, \"room_id\":%d, \"room_name\":%d, \"temperature\":%d, \"humidity\":%d}",api_key,room_id,room_name,temperature,humidity);
 
        Serial.println(json);
 
