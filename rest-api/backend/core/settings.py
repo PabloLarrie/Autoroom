@@ -103,6 +103,7 @@ DATABASES = {
 }
 
 # Password validation"room_id\":%d,
+AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
