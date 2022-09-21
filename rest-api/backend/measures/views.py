@@ -37,6 +37,7 @@ class MeasuresViews(APIView):
 
     def post(self, request):
         jd = json.loads(request.body)
+        print(jd)
         Measure.objects.create(
             room_id=jd['room_id'],
             room_name=jd['room_name'],
