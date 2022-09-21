@@ -21,16 +21,15 @@
       <Bar
         :chart-options="chartOptions"
         :chart-data="measureData3"
-          :height="height"
+        :height="height"
       />
     </div>
   </div>
-
 </template>
 
 <script>
 import axios from "axios";
-import { Bar } from 'vue-chartjs/legacy';
+import { Bar } from "vue-chartjs/legacy";
 import {
   Chart as ChartJS,
   Title,
@@ -42,97 +41,108 @@ import {
   LinearScale,
   LineElement,
   LineController,
- } from 'chart.js'
+} from "chart.js";
 
-ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale, LineElement, PointElement, LineController)
+ChartJS.register(
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  LineElement,
+  PointElement,
+  LineController
+);
 
 export default {
   name: "App",
   components: {
     Bar,
   },
-props: {
+  props: {
     height: {
       type: Number,
-      default: 500
+      default: 500,
     },
   },
   data() {
     return {
       measureData: {
         labels: [],
-        datasets: [{
-          backgroundColor: 'rgba(255, 99, 132, 0.2)',
-          label: 'Temperature',
-          data: [] },
-        {
-          backgroundColor: "turquoise",
-          type: 'line',
-          fill: false,
-          label: 'Humidity',
-          data: [],
-      }
+        datasets: [
+          {
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            label: "Temperature",
+            data: [],
+          },
+          {
+            backgroundColor: "turquoise",
+            type: "line",
+            fill: false,
+            label: "Humidity",
+            data: [],
+          },
         ],
       },
       measureData2: {
         labels: [],
-        datasets: [{
-          backgroundColor: 'rgba(255, 99, 132, 0.2)',
-          label: 'Temperature',
-          data: [] },
-        {
-          backgroundColor: "turquoise",
-          type: 'line',
-          fill: false,
-          label: 'Humidity',
-          data: [],
-      }
+        datasets: [
+          {
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            label: "Temperature",
+            data: [],
+          },
+          {
+            backgroundColor: "turquoise",
+            type: "line",
+            fill: false,
+            label: "Humidity",
+            data: [],
+          },
         ],
       },
       measureData3: {
         labels: [],
-        datasets: [{
-          backgroundColor: 'rgba(255, 99, 132, 0.2)',
-          label: 'Temperature',
-          data: [] },
-        {
-          backgroundColor: "turquoise",
-          type: 'line',
-          fill: false,
-          label: 'Humidity',
-          data: [],
-      }
+        datasets: [
+          {
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            label: "Temperature",
+            data: [],
+          },
+          {
+            backgroundColor: "turquoise",
+            type: "line",
+            fill: false,
+            label: "Humidity",
+            data: [],
+          },
         ],
       },
 
       times: [],
       config: {
-        type: 'scatter',
+        type: "scatter",
         data: this.measureData,
         options: {
           scales: {
             y: {
-              beginAtZero: true
-            }
-          }
-        }
+              beginAtZero: true,
+            },
+          },
+        },
       },
       chartOptions: {
         responsive: true,
-        maintainAspectRatio: false
-      }
+        maintainAspectRatio: false,
+      },
     };
   },
   async created() {
-    const {data} = await axios.get("http://localhost:8000/measures/");
-    data.forEach(d => {
-      const {
-        room_id,
-        temperature,
-        humidity,
-        time,
-      } = d;
-      if (room_id === 1 ) {
+    const { data } = await axios.get("http://52.28.228.31:8000/measures/");
+    data.forEach((d) => {
+      const { room_id, temperature, humidity, time } = d;
+      if (room_id === 1) {
         this.measureData.labels.push(time);
         this.measureData.datasets[0].data.push(temperature);
         this.measureData.datasets[1].data.push(humidity);
@@ -145,12 +155,8 @@ props: {
         this.measureData3.datasets[0].data.push(temperature);
         this.measureData3.datasets[1].data.push(humidity);
       }
-
-
-    })
-  }
-}
+    });
+  },
+};
 </script>
-<style>
-
-</style>
+<style></style>

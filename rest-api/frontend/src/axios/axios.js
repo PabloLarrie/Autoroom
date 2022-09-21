@@ -1,7 +1,7 @@
 import axios from "axios"
 import { store } from "@/vuex"
 
-const API = axios.create({ baseURL: "http://localhost:8000" })
+const API = axios.create({ baseURL: "http://52.28.228.31:8000" })
 
 API.defaults.headers.post["Content-Type"] = "application/json"
 API.defaults.headers.patch["Content-Type"] = "application/json"
