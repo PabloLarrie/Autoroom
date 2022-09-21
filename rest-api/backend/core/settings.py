@@ -53,7 +53,7 @@ LOCAL_APPS = [
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8080"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:8080", "http://52.28.228.31:8080"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
